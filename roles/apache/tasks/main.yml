@@ -2,7 +2,7 @@
 # tasks file for apache
 - name: install Apache
   yum:
-    name: httpd
+    name: httd
     state: latest
   notify: apache_restart
 
