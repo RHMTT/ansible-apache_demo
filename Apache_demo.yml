@@ -1,0 +1,7 @@
+---
+- name: Install and configure apache demo
+  hosts: all
+  become: true
+  tasks:
+  - include_role:
+      name: linux
