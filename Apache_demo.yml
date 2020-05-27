@@ -1,6 +1,6 @@
 ---
 - name: Install and configure apache demo
-  hosts: all
+  hosts: dev
   become: true
   vars:
     http_listen_port: 80
