@@ -21,3 +21,7 @@
     name: httpd
     state: started
     enabled: true
+
+- name: Show website address
+  debug:
+    msg: "http://{{ ansible_host }}"
